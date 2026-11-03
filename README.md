@@ -144,3 +144,5 @@ A $5 USDC balance covers ~1,000 URL extractions or ~250 Python code scans.
 ## License
 
 MIT
+
+<!-- mcp-name: io.github.NyTerry/machina-mcp -->

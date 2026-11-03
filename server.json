@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.NyTerry/machina-mcp",
+  "title": "Machina",
+  "description": "x402-powered AI agent services — URL extraction, PDF processing, code scanning, email validation, domain intelligence. Pay-per-call in USDC on Base.",
+  "repository": {
+    "url": "https://github.com/NyTerry/machina-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "machina-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Ethereum private key (hex, 0x-prefixed) for x402 payments in USDC on Base",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "MACHINA_WALLET_KEY"
+        }
+      ]
+    }
+  ]
+}

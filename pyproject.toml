@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "machina-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for Machina — x402-powered AI agent services (URL extraction, PDF processing, code scanning, email validation, domain intelligence)"
 readme = "README.md"
 license = { text = "MIT" }
