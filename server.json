@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.NyTerry/machina-mcp",
   "title": "Machina",
-  "description": "x402-powered AI agent services — URL extraction, PDF processing, code scanning, email validation, domain intelligence. Pay-per-call in USDC on Base.",
+  "description": "x402-powered AI agent services — URL extraction, PDF processing, code scanning, and more.",
   "repository": {
     "url": "https://github.com/NyTerry/machina-mcp",
     "source": "github"
